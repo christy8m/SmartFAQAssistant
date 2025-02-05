@@ -5,7 +5,7 @@ openai.api_key =  st.secrets["mykey"]
 # Define answer
 Answer = [
 product_benefits = ["Convenience", "Reduced food waste", "Personalized cooking assistance", "Energy efficiency", "Longer food freshness"]
-
+]
 
 
 
