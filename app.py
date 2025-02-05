@@ -42,9 +42,9 @@ def generate_copy(product_name, product_features, product_benefits, target_audie
     return caption, image_description
 
 # Streamlit UI
-st.title("Smart Fridge Pro Marketing Copy Generator")
+st.title("Smart FAQ Assistant")
 
-product_name = st.text_input("Product Name:", value="Smart Fridge Pro")
+product_name = st.text_input("Please enter your question:", value="qustion")
 selected_features = st.multiselect("Product Features:", product_features)
 selected_benefits = st.multiselect("Product Benefits:", product_benefits)
 selected_audience = st.selectbox("Target Audience:", target_audience)
